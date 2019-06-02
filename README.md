@@ -20,7 +20,6 @@ $ poetry init <project-name>
 $ poetry init my-project
 
 $ > component
-    gulp
     webpack
     react
     node

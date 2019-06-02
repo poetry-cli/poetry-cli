@@ -1,0 +1,83 @@
+{
+  "name": "poetry-cli",
+  "version": "1.0.0",
+  "description": "A simple CLI for scaffolding poetry projects",
+  "main": "bin/poetry",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": ["poetry-cli"],
+  "poetryTemplates": [
+    {
+      "name": "umi",
+      "info": "react.js网站开发脚手架"
+    },
+    {
+      "name": "antdPro",
+      "info": "中后台管理系统开发模板"
+    },
+    {
+      "name": "quickapp",
+      "info": "快应用脚手架模板"
+    },
+    {
+      "name": "vueCli3",
+      "info": "vue cli3开发脚手架"
+    },
+    {
+      "name": "RN",
+      "info": "ReactNative快速的开发iOS和Android应用"
+    },
+    {
+      "name": "taro",
+      "info": "taro 小程序开发"
+    },
+    {
+      "name": "gatsby",
+      "info": "原生html网站开发脚手架，基于react快速构建静态站点"
+    },
+    {
+      "name": "next",
+      "info": "前端生产环境node中间渲染层"
+    },
+    {
+      "name": "ionic4",
+      "info": "ionic4开发模板"
+    }
+  ],
+  "author": "poetries",
+  "license": "MIT",
+  "bin": {
+    "poetry": "./bin/poetry",
+    "poetry-init": "./bin/poetry-init",
+    "poetry-run": "./bin/poetry-run"
+  },
+  "repository": "git+https://github.com/poetry-cli/poetry-cli.git",
+  "bugs": {
+    "url": "https://github.com/poetry-cli/poetry-cli/issues"
+  },
+  "homepage": "https://github.com/poetry-cli/poetry-cli#readme",
+  "dependencies": {
+    "commander": "^2.16.0",
+    "download-git-repo": "^1.0.2",
+    "inquirer": "^6.0.0",
+    "mkdirp": "^0.5.1",
+    "ora": "^2.1.0",
+    "readline": "^1.3.0",
+    "rimraf": "^2.6.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "chai": "^4.1.2",
+    "eslint": "^5.0.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "mocha": "^5.2.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
